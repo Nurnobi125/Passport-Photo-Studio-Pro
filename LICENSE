@@ -1,0 +1,36 @@
+---
+
+### GitHub Release Page (`v5.0.0`)
+
+**Tag:** `v5.0.0`  
+**Release Title:** `Passport Photo Studio Pro v5.0.0 — Manual Crop Training & UI Engine Upgrade`
+
+```markdown
+## 🚀 What's New in v5.0.0
+
+We are excited to announce **Passport Photo Studio Pro v5.0.0**! This major release introduces an interactive Photoshop-style crop workspace, face-anchored composition learning, and targeted performance optimizations for legacy hardware[cite: 1].
+
+### 🎯 Key Highlights
+
+* **Photoshop-Style Interactive Manual Crop Workspace**
+  * Move and resize crop boundaries using an 8-handle control box[cite: 1].
+  * Lock passport aspect ratio constraints automatically[cite: 1].
+  * Pan and zoom controls for micro-adjustments[cite: 1].
+
+* **Train Once + Auto Apply Engine**
+  * Train the bot once to capture your precise composition target[cite: 1].
+  * Learned profiles adapt automatically across varying subject distances and resolutions via face-anchored geometry[cite: 1].
+
+* **Low-End PC & Hardware Optimizations**
+  * Reduced face-detection overhead via downsampled working buffers[cite: 1].
+  * Capped OpenCV multithreading to reduce CPU spikes[cite: 1].
+  * Background execution for heavy cropping tasks to preserve GUI responsiveness[cite: 1].
+
+---
+
+### 📦 Installation & Assets
+
+To install, download the `PassportPhotoStudioPro-v5.0.0-x64.msix` installer below or use the standalone executable bundle.
+
+* **Package File:** `PassportPhotoStudioPro-v5.0.0-x64.msix`
+* **Standalone Zip:** `PassportPhotoStudioPro-v5.0.0-portable.zip`
